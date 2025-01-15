@@ -1,0 +1,487 @@
+DEBUG - 2025-01-10 14:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 14:39:32 --> ErrorException: Undefined array key "kategori"
+[Method: GET, Route: barang]
+in APPPATH\Views\Barang\index.php on line 30.
+ 1 APPPATH\Views\Barang\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\BarangController.php(26): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+DEBUG - 2025-01-10 14:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 14:40:19 --> ErrorException: Undefined array key "kategori"
+[Method: GET, Route: barang]
+in APPPATH\Views\Barang\index.php on line 30.
+ 1 APPPATH\Views\Barang\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\BarangController.php(26): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+DEBUG - 2025-01-10 14:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 14:40:33 --> ErrorException: Undefined array key "kategori"
+[Method: GET, Route: barang]
+in APPPATH\Views\Barang\index.php on line 30.
+ 1 APPPATH\Views\Barang\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\BarangController.php(26): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+DEBUG - 2025-01-10 14:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 14:40:35 --> ErrorException: Undefined array key "kategori"
+[Method: GET, Route: barang]
+in APPPATH\Views\Barang\index.php on line 30.
+ 1 APPPATH\Views\Barang\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\BarangController.php(26): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+DEBUG - 2025-01-10 14:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 14:40:40 --> ErrorException: Undefined array key "kategori"
+[Method: GET, Route: barang]
+in APPPATH\Views\Barang\index.php on line 30.
+ 1 APPPATH\Views\Barang\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\BarangController.php(26): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+DEBUG - 2025-01-10 14:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 14:40:43 --> ErrorException: Undefined array key "kategori"
+[Method: GET, Route: barang]
+in APPPATH\Views\Barang\index.php on line 30.
+ 1 APPPATH\Views\Barang\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\BarangController.php(26): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+DEBUG - 2025-01-10 14:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 14:41:17 --> ErrorException: Undefined array key "kategori"
+[Method: GET, Route: barang]
+in APPPATH\Views\Barang\index.php on line 30.
+ 1 APPPATH\Views\Barang\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\BarangController.php(26): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+DEBUG - 2025-01-10 14:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 14:41:49 --> ErrorException: Undefined array key "kategori"
+[Method: GET, Route: barang]
+in APPPATH\Views\Barang\index.php on line 30.
+ 1 APPPATH\Views\Barang\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\BarangController.php(26): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+DEBUG - 2025-01-10 14:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 14:41:52 --> ErrorException: Undefined array key "kategori"
+[Method: GET, Route: barang]
+in APPPATH\Views\Barang\index.php on line 30.
+ 1 APPPATH\Views\Barang\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\BarangController.php(26): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+DEBUG - 2025-01-10 14:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 14:42:23 --> ErrorException: Undefined array key "kategori"
+[Method: GET, Route: barang]
+in APPPATH\Views\Barang\index.php on line 30.
+ 1 APPPATH\Views\Barang\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\BarangController.php(26): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+DEBUG - 2025-01-10 14:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 14:46:23 --> ErrorException: Undefined array key "kategori"
+[Method: GET, Route: barang]
+in APPPATH\Views\Barang\index.php on line 19.
+ 1 APPPATH\Views\Barang\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\BarangController.php(28): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+CRITICAL - 2025-01-10 14:49:14 --> ErrorException: Undefined variable $k
+[Method: GET, Route: barang]
+in APPPATH\Views\Barang\index.php on line 40.
+ 1 APPPATH\Views\Barang\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $k', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\BarangController.php(28): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+CRITICAL - 2025-01-10 14:49:53 --> ErrorException: Undefined array key "kategori"
+[Method: GET, Route: barang]
+in APPPATH\Views\Barang\index.php on line 19.
+ 1 APPPATH\Views\Barang\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\BarangController.php(28): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+CRITICAL - 2025-01-10 14:49:54 --> ErrorException: Undefined array key "kategori"
+[Method: GET, Route: barang]
+in APPPATH\Views\Barang\index.php on line 19.
+ 1 APPPATH\Views\Barang\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\BarangController.php(28): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+CRITICAL - 2025-01-10 14:50:01 --> ErrorException: Undefined array key "kategori"
+[Method: GET, Route: barang]
+in APPPATH\Views\Barang\index.php on line 19.
+ 1 APPPATH\Views\Barang\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\BarangController.php(28): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+DEBUG - 2025-01-10 14:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 14:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 15:03:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "barang.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barang', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('barang')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+CRITICAL - 2025-01-10 15:03:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "\barang.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\barang.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('\\barang', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('\\barang')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+CRITICAL - 2025-01-10 15:03:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/barang.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/barang.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/barang', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('/barang')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+CRITICAL - 2025-01-10 15:04:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/Barang/barang.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Barang/barang.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/Barang/barang', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('/Barang/barang')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+CRITICAL - 2025-01-10 15:04:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "barang.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('barang', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('barang')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+CRITICAL - 2025-01-10 15:04:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/barang.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/barang.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/barang', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('/barang')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+CRITICAL - 2025-01-10 15:05:41 --> ErrorException: Undefined variable $barang
+[Method: GET, Route: /]
+in APPPATH\Views\Barang\index.php on line 28.
+ 1 APPPATH\Views\Barang\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Barang/index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('Barang/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+CRITICAL - 2025-01-10 15:05:42 --> ErrorException: Undefined variable $barang
+[Method: GET, Route: /]
+in APPPATH\Views\Barang\index.php on line 28.
+ 1 APPPATH\Views\Barang\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Barang/index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('Barang/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+CRITICAL - 2025-01-10 15:05:42 --> ErrorException: Undefined variable $barang
+[Method: GET, Route: /]
+in APPPATH\Views\Barang\index.php on line 28.
+ 1 APPPATH\Views\Barang\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Barang/index', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('Barang/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+CRITICAL - 2025-01-10 15:06:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+DEBUG - 2025-01-10 15:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 15:25:40 --> ErrorException: Undefined variable $b
+[Method: GET, Route: kategori]
+in APPPATH\Views\Kategori\index.php on line 38.
+ 1 APPPATH\Views\Kategori\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $b', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Kategori\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Kategori\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kategori/index', [], true)
+ 5 APPPATH\Controllers\KategoriController.php(20): view('kategori/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KategoriController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+CRITICAL - 2025-01-10 15:26:33 --> ErrorException: Undefined variable $b
+[Method: GET, Route: lokasi]
+in APPPATH\Views\Lokasi\index.php on line 37.
+ 1 APPPATH\Views\Lokasi\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $b', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Lokasi\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Lokasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lokasi/index', [], true)
+ 5 APPPATH\Controllers\LokasiController.php(20): view('lokasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LokasiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+CRITICAL - 2025-01-10 15:28:39 --> ErrorException: Undefined variable $k
+[Method: GET, Route: lokasi]
+in APPPATH\Views\Lokasi\index.php on line 37.
+ 1 APPPATH\Views\Lokasi\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $k', 'C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Lokasi\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\app\\Views\\Lokasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('lokasi/index', [], true)
+ 5 APPPATH\Controllers\LokasiController.php(20): view('lokasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LokasiController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Mahesa Agung Sejati\\Documents\\SEMESTER 6\\Sertifikasi Kompetensi\\Inventaris\\BE_Inventaris\\public\\index.php')
+DEBUG - 2025-01-10 15:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 15:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
